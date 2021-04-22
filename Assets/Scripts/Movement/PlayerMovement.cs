@@ -18,8 +18,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //gets input from the mouse 
         if (Input.GetMouseButtonDown(0))
         {
+            //figures the relative location of the mouse click based off the camera
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hitInfo;
 

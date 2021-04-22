@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GoalCollider : MonoBehaviour
 {
+    //detects collision with the player and loads the next scene or end scene
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))

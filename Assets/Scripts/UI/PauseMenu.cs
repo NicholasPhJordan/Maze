@@ -19,20 +19,23 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
+    //creates function to the resume button that unpauses the game and clears the pause menu
     public void Resume()
     {
-        pauseMenuUi.SetActive(false);
-        Time.timeScale = 1f;
+        pauseMenuUi.SetActive(false); //deactivates the pauseMenuUI
+        Time.timeScale = 1f; //continues the game
         gamePaused = false;
     }
 
+    //Pauses the game and shows the pause menu
     void Pause()
     {
-        pauseMenuUi.SetActive(true);
-        Time.timeScale = 0f;
+        pauseMenuUi.SetActive(true); //activates the pauseMenuUI
+        Time.timeScale = 0f; //stops the game time 
         gamePaused = true;
     }
 
+    //creates function to the quit button that closes the application
     public void QuitGame()
     {
         Application.Quit();
