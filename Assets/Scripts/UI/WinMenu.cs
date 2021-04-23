@@ -10,4 +10,10 @@ public class WinMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
+
+    //creates function to the quit button that closes the application
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

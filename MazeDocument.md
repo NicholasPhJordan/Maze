@@ -122,3 +122,7 @@ gives the player the option to restart or quit the application.
         Name: Restart() 
             Description: Gives function to the restart button by setting the scene back one to the game scene
             Type: void
+
+        Name: QuitGame() 
+            Description: creates function to the quit button that closes the application
+            Type: void
