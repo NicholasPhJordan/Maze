@@ -2,7 +2,7 @@
 
 Press play and make your way through the spooky maze.
 
-#### Controls
+### Controls
 
 ESC - Pause
 
